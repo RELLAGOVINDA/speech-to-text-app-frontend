@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { AudioLines, Mic, Square, Save, Search, Pencil, Trash2, X, Check, Clock3, Languages, FileText, AlertCircle, RefreshCw } from 'lucide-react'
 
-const API = 'http://localhost:8080/api'
+const API = 'https://speech-to-text-app-demo.onrender.com/api'
 const LANGUAGES = [
   { label: 'English (India)', value: 'en-IN' },
   { label: 'Hindi', value: 'hi-IN' },
